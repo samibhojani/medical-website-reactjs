@@ -40,7 +40,7 @@ const Navbar = () => {
                 {menu ? (
                     <AiOutlineClose size={28} onClick={handleChange} />
                 ): (
-                    <AiOutlineMenu size={28} onClick={handleChange} />
+                    <AiOutlineMenu size={28} onClick={closeMenu} />
                 )}
             </div>
         </div>
