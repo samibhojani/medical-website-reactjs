@@ -38,9 +38,9 @@ const Navbar = () => {
 
             <div className='lg:hidden flex items-center'>
                 {menu ? (
-                    <AiOutlineClose size={28} onClick={handleChange} />
+                    <AiOutlineClose size={28} onClick={closeMenu} />
                 ): (
-                    <AiOutlineMenu size={28} onClick={closeMenu} />
+                    <AiOutlineMenu size={28} onClick={handleChange} />
                 )}
             </div>
         </div>
